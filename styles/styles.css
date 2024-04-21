@@ -1,0 +1,936 @@
+/* -------------- J. DAVID ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#inicio_principal_banner {
+  height: 700px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container a img {
+  padding-left: 50px;
+  max-width: 40rem;
+  width: 12rem;
+}
+
+.navi {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navi ul {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navi li a {
+  margin: 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+#inicio_donate {
+  background-color: #ffc814;
+  margin: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+#inicio_donate:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.openmenu,
+.closemenu {
+  display: none;
+}
+
+#inicio_banner_texto {
+  color: white;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  top: 90px;
+  height: 600px;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+#inicio_banner_texto p {
+  width: 400px;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+#inicio_botones {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 400px;
+}
+
+#inicio_boton1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#inicio_boton2 a {
+  text-decoration: none;
+  color: black;
+}
+
+#inicio_boton1 {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#inicio_boton2 {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px;
+  background: #ffc814;
+  border: none;
+  margin-left: 30px;
+}
+
+#inicio_logos_patrocinadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio_logos_patrocinadores img {
+  width: 150px;
+  margin-left: 60px;
+}
+
+/* -------------- JHONATHAN ---------------- */
+
+#secciongeneral1 {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  height: 400px;
+  align-items: center;
+  text-align: center;
+}
+.seccion1 {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.div1 {
+  width: 42%;
+  margin-top: 30px;
+}
+
+.div2 {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.iconos1 {
+  display: flex;
+}
+
+.titulos {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+.t1 {
+  color: #0d0d0d;
+}
+.t2 {
+  color: #ffc814;
+}
+
+.parrafos1 {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.botonseccion1 {
+  background: black;
+  color: white;
+  padding: 10px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 6%;
+}
+
+.iconos1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.iconos1uno {
+  margin: 10px;
+}
+
+.iconos1uno h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.iconos1dos {
+  margin: 10px;
+}
+
+.iconos1dos h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.iconos2uno {
+  margin: 10px;
+}
+
+.iconos2uno h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.iconos2dos {
+  margin: 10px;
+}
+
+.iconos2dos h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.iconos2 {
+  display: flex;
+}
+.iconos2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.div2 p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.div2 h2 {
+  font-size: 16px;
+}
+
+#secciongeneral2 {
+  display: flex;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.seccion2 {
+  display: flex;
+  width: 60%;
+  height: 300px;
+
+  justify-content: space-between;
+}
+
+.div3 {
+  width: 38%;
+}
+
+.div3 img {
+  width: 110%;
+  height: 300px;
+}
+
+.div4 {
+  width: 50%;
+}
+
+.titulos2 {
+  font-size: 35px;
+
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.color1 {
+  color: black;
+}
+
+.color2 {
+  color: #ffc814;
+}
+
+.parrafodiv4 {
+  font-size: 14px;
+  text-align: justify;
+  width: 100%;
+}
+
+.botonesdinero {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.botonesdinero button {
+  background: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+  font-size: 12px;
+  width: 13%;
+  margin: 0 2px;
+}
+
+.botondonar button {
+  background: black;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  border: none;
+  border-radius: 6%;
+  margin-bottom: 40px;
+}
+
+/* ---------------- JORDI ----------------- */
+
+#video_inicio {
+  margin-top: 200px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: justify;
+  overflow: hidden;
+}
+
+#video_inicio img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+#causas_inicio h1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 20px 0px;
+  font-size: 55px;
+}
+#causas_inicio p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 10px 40px 10px;
+  margin-inline: 400px;
+  color: #686565;
+}
+
+#causas_inicio a {
+  color: #ffc814;
+  margin-left: 10px;
+}
+
+#seccion_imagenes_inicio {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.imagenes_causas_inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(202, 205, 209);
+  border-radius: 3px;
+  margin: 0 10px;
+  width: 20%;
+  margin-bottom: 50px;
+}
+.imagenes_causas_inicio img {
+  height: 150px;
+  object-fit: cover;
+}
+.imagenes_causas_inicio h3 {
+  padding: 19px;
+  display: flex;
+  justify-content: center;
+}
+.imagenes_causas_inicio p {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  color: #686565;
+  text-align: justify;
+}
+
+/* -------------- REDA ---------------- */
+
+#inicio_stats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.anesvad.org/wp-content/uploads/2022/11/ong-empresas-1024x576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+#inicio_stats image img {
+  width: 100%;
+  height: 100%;
+}
+
+.numbers p {
+  color: #ffc814;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.numbers span {
+  color: white;
+}
+
+#inicio_join {
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ffc814;
+}
+
+#inicio_join span {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+#inicio_join p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#inicio_join input {
+  height: 50px;
+  width: 130px;
+  font-weight: bold;
+  border: none;
+}
+
+#inicio_footer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#inicio_footer p {
+  display: flex;
+  font-weight: bold;
+}
+
+#inicio_footer span {
+  display: flex;
+  padding-bottom: 9px;
+  color: lightgray;
+}
+
+#inicio_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inicio_icons i {
+  color: lightgray;
+  margin-right: 40px;
+}
+
+#inicio_follow {
+  padding-bottom: 65px;
+}
+
+#inicio_copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lightgray;
+  height: 33px;
+}
+
+#inicio_copyright p {
+  color: lightgray;
+}
+
+/* -------------- RESPONSIVE ---------------- */
+
+/* -------------- J. DAVID ---------------- */
+
+@media screen and (max-width: 768px) {
+  .openmenu,
+  .closemenu {
+    display: block;
+    border: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .openmenu {
+    padding-right: 15px;
+    color: #ececec;
+  }
+
+  .closemenu {
+    color: #ececec;
+  }
+
+  .navigation {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1c1c;
+    padding: 3rem;
+    /* z-index: 2; */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+  .navigation.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navi {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .navi li a {
+    text-decoration: none;
+    color: #ecececec;
+    font-size: 15px;
+  }
+
+  .navi {
+    display: flex;
+    align-items: center;
+  }
+
+  .container a img {
+    padding-left: 20px;
+    max-width: 20rem;
+    width: 8rem;
+  }
+
+  #contenedor_navi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #inicio_banner_texto {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+  #inicio_banner_texto p {
+    padding-left: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 20px;
+  }
+
+  #inicio_botones {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+
+  #inicio_boton1 {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px;
+    border: none;
+  }
+
+  #inicio_boton2 {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px;
+    background: #ffc814;
+    border: none;
+    padding-left: 10px;
+  }
+
+  #inicio_logos_patrocinadores {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+  }
+
+  #inicio_logos_patrocinadores img {
+    width: 100px;
+  }
+
+  /* -------------- JHONATHAN ---------------- */
+
+  #secciongeneral1 {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    height: auto; /* Cambiado a auto para que la altura se ajuste según el contenido */
+    padding: 20px; /* Añadido espacio alrededor del contenido */
+    text-align: center;
+    align-items: center;
+  }
+
+  .seccion1 {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para ajustar el contenido */
+    align-items: center; /* Centrado verticalmente */
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .div1 {
+    margin-right: 0; /* Eliminado margen derecho */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho */
+    margin-top: 30px;
+    margin-bottom: 20px; /* Añadido espacio inferior */
+  }
+
+  .div2 {
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho */
+    margin-top: 10px;
+    margin-bottom: 20px; /* Añadido espacio inferior */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .iconos1 {
+    display: flex;
+    justify-content: center; /* Centrado horizontal de los iconos */
+    margin-bottom: 20px; /* Añadido espacio inferior */
+  }
+
+  .iconos1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px; /* Espacio entre iconos */
+  }
+
+  .titulos {
+    margin-bottom: 10px;
+    font-size: 25px; /* Reducido tamaño de fuente */
+    text-align: center; /* Centrado del texto */
+  }
+
+  .t1 {
+    color: #0d0d0d;
+  }
+
+  .t2 {
+    color: #ffc814;
+  }
+
+  .parrafos1 {
+    font-size: 14px; /* Aumentado tamaño de fuente */
+    text-align: justify; /* Centrado del texto */
+    margin-bottom: 20px; /* Añadido espacio inferior */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .botonseccion1 {
+    background: black;
+    color: white;
+    padding: 10px 20px; /* Ajustado tamaño del botón */
+    font-size: 14px; /* Aumentado tamaño de fuente */
+    border: none;
+    border-radius: 6px; /* Cambiado a 6px */
+    cursor: pointer; /* Añadido cursor */
+    margin-top: 15px; /* Reducido espacio superior */
+  }
+
+  #secciongeneral2 {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna */
+    align-items: center; /* Centrado horizontal */
+    margin-top: 25px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .seccion2 {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna */
+    align-items: center; /* Centrado horizontal */
+    width: 100%; /* Cambiado a 100% para ocupar todo el ancho */
+    height: auto; /* Cambiado a auto para ajustar la altura */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .div3 {
+    width: 80%; /* Cambiado a 100% para ocupar todo el ancho */
+    margin-top: 20%; /* Reducido espacio superior */
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div3 img {
+    width: 100%; /* Ajustado tamaño de imagen al 100% del contenedor */
+    height: 100%; /* Ajustado altura automáticamente */
+  }
+
+  .div4 {
+    width: 90%; /* Cambiado a 100% para ocupar todo el ancho */
+    margin-top: 20px; /* Reducido espacio superior */
+    /* Centrado del texto */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulos2 {
+    font-size: 25px; /* Reducido tamaño de fuente */
+    margin-bottom: 10px; /* Añadido espacio inferior */
+    text-align: center; /* Centrado del texto */
+  }
+
+  .parrafodiv4 {
+    font-size: 14px; /* Aumentado tamaño de fuente */
+    margin-bottom: 20px; /* Añadido espacio inferior */
+    text-align: justify; /* Centrado del texto */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .botonesdinero {
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    margin-top: 20px; /* Reducido espacio superior */
+    margin-bottom: 20px; /* Añadido espacio inferior */
+  }
+  .botonesdinero button {
+    background: white;
+    border: 1px solid lightgray;
+    padding: 10px 20px; /* Ajustado tamaño del botón */
+    font-size: 12px; /* Aumentado tamaño de fuente */
+    margin: 0 5px; /* Espacio entre botones */
+    display: flex;
+    justify-content: center;
+  }
+
+  .botondonar button {
+    background: black;
+    color: white;
+    padding: 12px 24px; /* Ajustado tamaño del botón */
+    font-size: 14px; /* Aumentado tamaño de fuente */
+    border: none;
+    border-radius: 6px; /* Cambiado a 6px */
+    cursor: pointer; /* Añadido cursor */
+    margin-top: 20px; /* Reducido espacio superior */
+    margin-bottom: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* -------------- JORDI ---------------- */
+
+  #video_inicio {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  #seccion3 {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #causas_inicio h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+  #causas_inicio p {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #causas_inicio a {
+    color: #ffc814;
+    margin-left: 10px;
+  }
+
+  #seccion_imagenes_inicio {
+    display: grid;
+    justify-content: center;
+  }
+
+  .imagenes_causas_inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(202, 205, 209);
+    border-radius: 3px;
+    margin: 0 10px;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .imagenes_causas_inicio img {
+    height: 150px;
+    object-fit: cover;
+  }
+  .imagenes_causas_inicio h3 {
+    padding: 19px;
+    display: flex;
+    justify-content: center;
+  }
+  .imagenes_causas_inicio p {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: #686565;
+    text-align: justify;
+  }
+
+  /* -------------- REDA ---------------- */
+
+  .numbers p {
+    font-size: 25px;
+  }
+  .numbers span {
+    font-size: 10px;
+  }
+
+  #inicio_join {
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #inicio_footer {
+    height: inherit;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #inicio_join span {
+    font-size: 25px;
+  }
+
+  #inicio_footer p {
+    font-size: 20px;
+  }
+
+  #inicio_footer span {
+    font-size: 16px;
+  }
+
+  #inicio_copyright p {
+    font-size: 30px;
+  }
+  #inicio_copyright {
+    margin: 10px 0;
+  }
+  #inicio_copyright p {
+    font-size: 13px;
+  }
+
+  #inicio_icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #inicio_icons i {
+    font-size: 25px;
+  }
+}
